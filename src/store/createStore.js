@@ -18,3 +18,4 @@ export function createStore(reducer, initialState) {
     }
     return { getState, dispatch, subscribe }
 }
+//это ручной createStore (не Redux)
